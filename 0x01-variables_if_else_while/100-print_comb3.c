@@ -19,11 +19,11 @@ int main(void)
 
 			if (digit1 == 9 && digit2 == 9)
 				continue;
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
 		}
 	}
 
 	putchar('\n');
-	return (0)
-:
+	return (0);
+}
