@@ -13,11 +13,11 @@ int main(void)
 	unsigned long int next_num;
 	int i;
 
-	printf("lu, ", num1);
+	printf("%lu, ", num1);
 
 	for (i = 1; i < 50; i++)
 	{
-		printf("lu", num2);
+		printf("%lu", num2);
 		next_num = num1 + num2;
 		num1 = num2;
 		num2 = next_num;
