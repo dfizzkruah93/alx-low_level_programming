@@ -28,7 +28,7 @@ int check_palindrome(char *s, int x, int y)
 	if (s[x] == s[y])
 		if (x > y / 2)
 		return (1);
-	else 
+	else
 		return (check_palindrome(s, x + 1, y - 1));
 	else
 		return (0);
