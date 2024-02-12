@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * free_grid: free memory previously allocated
+ * free_grid - free memory previously allocated
  * @grid: pointer to the array
  * @height: number of rows
  */
