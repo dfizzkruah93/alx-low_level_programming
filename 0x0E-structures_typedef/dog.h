@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * free dog - function that free dog
+ * struct dog - function that free dog
  *
  * @name: name of dog
  * @age: age of dog
