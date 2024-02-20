@@ -28,11 +28,12 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	if ((argv[2][0] == '/' || argv[2][0] == '%'))
+	else if ((argv[2][0] == '/' || argv[2][0] == '%'))
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
-	printf("%d\n", op_func(atoi(argv[1]), atoi(argv[3])));
+	else
+		printf("%d\n", op_func(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
